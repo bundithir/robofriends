@@ -7,6 +7,9 @@ class Cardlist extends React.Component{
     
     
     render(){
+        // if(true){
+        //     throw new Error('MOOO');
+        // }
         const Cardcomponent = this.props.robots.map((user,i) => {
         return <Card 
             key={i} 
